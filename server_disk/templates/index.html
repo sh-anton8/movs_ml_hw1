@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Main page!</title>
+    </head>
+    <body>
+        <h3> {{ message }} </h3>
+        <p> Upload one object (json file { "feature_name":"feature_value" })</p>
+        <form action="/upload_one" method="post" enctype="multipart/form-data">
+            <input type="file" name="upload_file"> <br><br>
+            <button type="submit">Upload json file</button>
+        </form>
+        <p> or </p>
+        <p> Upload collection of obects (csv file like training data)</p>
+
+        <form action="/upload_many" method="post" enctype="multipart/form-data">
+            <input type="file" name="upload_file"> <br><br>
+            <button type="submit">Upload csv file</button>
+        </form>
+    </body>
+</html>
