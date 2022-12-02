@@ -1,1 +1,3 @@
-# movs_ml_hw1
+# Отчет о проделанной работе
+
+![Screenshot](photo_proof/App_launch.png)
